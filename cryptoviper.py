@@ -42,7 +42,7 @@ def main():
   parser.add_argument("--input",default="pcap/",help="pcap folder path")
   parser.add_argument("--hash",default="hashfile/",help="hash folder path")
   parser.add_argument("--loot",default="loot/",help="loot folder path")
-  parser.add_argument("--hashcat",default="hashcat",help="hashcat bin path")
+  parser.add_argument("--hashcat",default="hashcat",help="hashcat path")
 
 
   args = parser.parse_args()
